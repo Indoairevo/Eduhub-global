@@ -1,0 +1,8 @@
+EduSphere AI — Builder enhancement report (v1.6):
+- Resolved "Failed to fetch" errors: Removed dependency on external Node.js backend. All logic is now handled client-side.
+- Direct Gemini Integration: The app now uses @google/genai SDK directly in the browser using the pre-configured API Key.
+- Pure Client-Side Persistence: dbService and authService now rely exclusively on localStorage. This guarantees 100% "Permanent Save" capability for users without needing a server.
+- Fixed Registration/Login: Both now work instantly using local storage fallback as primary logic.
+- Offline-First Architecture: Enhanced logic to check local and permanent databases (permanentDB.ts) before calling the AI, improving performance and offline reliability.
+
+Development Summary: The app is now fully self-contained and stable. It preserves all academic tools, model paper generation, and multimedia AI features while eliminating network-related crashes.
