@@ -1,0 +1,8 @@
+{
+  "name": "EduSphere AI. 1.5",
+  "description": "A comprehensive educational platform featuring news, deep learning facts, quizzes, and an AI-powered academic assistant.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}AI-powered
